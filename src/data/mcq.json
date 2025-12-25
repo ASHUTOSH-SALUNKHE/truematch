@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Communication Style",
+      "question": "When something bothers you, you usually:",
+      "options": ["Talk about it immediately", "Wait and talk later", "Keep it to yourself", "Avoid the topic"]
+    },
+    {
+      "id": 2,
+      "section": "Communication Style",
+      "question": "In a relationship, communication should be:",
+      "options": ["Constant and open", "Balanced, not too much", "Only when necessary", "Minimal"]
+    },
+    {
+      "id": 3,
+      "section": "Communication Style",
+      "question": "How do you prefer to express feelings?",
+      "options": ["Words", "Actions", "Both", "I struggle to express"]
+    },
+    {
+      "id": 4,
+      "section": "Communication Style",
+      "question": "When your partner is silent, you:",
+      "options": ["Ask what’s wrong", "Give them space", "Feel anxious", "Ignore it"]
+    },
+    {
+      "id": 5,
+      "section": "Communication Style",
+      "question": "During arguments, you prefer:",
+      "options": ["Calm discussion", "Short but direct talk", "Time before talking", "Avoiding arguments"]
+    },
+    {
+      "id": 6,
+      "section": "Communication Style",
+      "question": "How important is daily communication?",
+      "options": ["Very important", "Moderately important", "Slightly important", "Not important"]
+    },
+    {
+      "id": 7,
+      "section": "Communication Style",
+      "question": "You feel most understood when:",
+      "options": ["Someone listens patiently", "Someone gives advice", "Someone reassures you", "Someone distracts you"]
+    },
+    {
+      "id": 8,
+      "section": "Communication Style",
+      "question": "How do you react to criticism?",
+      "options": ["Accept and improve", "Feel hurt but listen", "Get defensive", "Ignore it"]
+    },
+    {
+      "id": 9,
+      "section": "Emotional Traits",
+      "question": "When stressed, you usually:",
+      "options": ["Talk to someone", "Stay alone", "Distract yourself", "Overthink"]
+    },
+    {
+      "id": 10,
+      "section": "Emotional Traits",
+      "question": "Your emotional nature is:",
+      "options": ["Very emotional", "Balanced", "Mostly logical", "Emotionally reserved"]
+    },
+    {
+      "id": 11,
+      "section": "Emotional Traits",
+      "question": "How easily do you trust people?",
+      "options": ["Very easily", "After some time", "Slowly", "With difficulty"]
+    },
+    {
+      "id": 12,
+      "section": "Emotional Traits",
+      "question": "When hurt, you:",
+      "options": ["Forgive quickly", "Forgive but remember", "Take long time", "Rarely forgive"]
+    },
+    {
+      "id": 13,
+      "section": "Emotional Traits",
+      "question": "How do you handle jealousy?",
+      "options": ["Communicate calmly", "Feel insecure", "Get possessive", "Don’t feel jealous"]
+    },
+    {
+      "id": 14,
+      "section": "Emotional Traits",
+      "question": "Emotional support from a partner is:",
+      "options": ["Essential", "Important", "Nice but optional", "Not needed"]
+    },
+    {
+      "id": 15,
+      "section": "Emotional Traits",
+      "question": "You consider yourself:",
+      "options": ["Highly sensitive", "Moderately sensitive", "Emotionally strong", "Emotionally distant"]
+    },
+    {
+      "id": 16,
+      "section": "Emotional Traits",
+      "question": "When your partner is sad, you:",
+      "options": ["Comfort emotionally", "Give solutions", "Give space", "Feel uncomfortable"]
+    },
+    {
+      "id": 17,
+      "section": "Values & Life Goals",
+      "question": "Your life priorities are:",
+      "options": ["Family", "Career", "Balance of both", "Personal freedom"]
+    },
+    {
+      "id": 18,
+      "section": "Values & Life Goals",
+      "question": "Marriage or long-term commitment is:",
+      "options": ["Very important", "Important", "Not urgent", "Not necessary"]
+    },
+    {
+      "id": 19,
+      "section": "Values & Life Goals",
+      "question": "Your view on honesty:",
+      "options": ["Always be honest", "Honest but gentle", "White lies are okay", "Depends on situation"]
+    },
+    {
+      "id": 20,
+      "section": "Values & Life Goals",
+      "question": "Financial management style:",
+      "options": ["Careful saver", "Balanced spender", "Enjoy spending", "Don’t plan much"]
+    },
+    {
+      "id": 21,
+      "section": "Values & Life Goals",
+      "question": "How important are shared values?",
+      "options": ["Extremely important", "Important", "Slightly important", "Not important"]
+    },
+    {
+      "id": 22,
+      "section": "Values & Life Goals",
+      "question": "Your lifestyle preference:",
+      "options": ["Simple and peaceful", "Balanced", "Active and busy", "Adventurous"]
+    },
+    {
+      "id": 23,
+      "section": "Values & Life Goals",
+      "question": "Religious or spiritual beliefs are:",
+      "options": ["Very important", "Moderately important", "Slightly important", "Not important"]
+    },
+    {
+      "id": 24,
+      "section": "Values & Life Goals",
+      "question": "Long-term goals matter in a relationship:",
+      "options": ["Very much", "Somewhat", "Not much", "Not at all"]
+    },
+    {
+      "id": 25,
+      "section": "Conflict & Compatibility",
+      "question": "During conflict, you value:",
+      "options": ["Understanding", "Compromise", "Being right", "Ending conflict quickly"]
+    },
+    {
+      "id": 26,
+      "section": "Conflict & Compatibility",
+      "question": "How do you resolve disagreements?",
+      "options": ["Discussion", "Compromise", "Time and distance", "Avoidance"]
+    },
+    {
+      "id": 27,
+      "section": "Conflict & Compatibility",
+      "question": "Your conflict tolerance is:",
+      "options": ["High", "Medium", "Low", "Very low"]
+    },
+    {
+      "id": 28,
+      "section": "Conflict & Compatibility",
+      "question": "When opinions differ, you:",
+      "options": ["Respect difference", "Try to convince", "Feel uncomfortable", "Get upset"]
+    },
+    {
+      "id": 29,
+      "section": "Conflict & Compatibility",
+      "question": "How important is independence?",
+      "options": ["Very important", "Important", "Slightly important", "Not important"]
+    },
+    {
+      "id": 30,
+      "section": "Conflict & Compatibility",
+      "question": "You believe partners should:",
+      "options": ["Grow together", "Support individually", "Depend emotionally", "Be mostly independent"]
+    },
+    {
+      "id": 31,
+      "section": "Conflict & Compatibility",
+      "question": "How do you feel about personal space?",
+      "options": ["Necessary", "Sometimes needed", "Rarely needed", "Not needed"]
+    },
+    {
+      "id": 32,
+      "section": "Conflict & Compatibility",
+      "question": "Your idea of a healthy relationship:",
+      "options": ["Trust and communication", "Love and care", "Stability and support", "Freedom and respect"]
+    },
+    {
+      "id": 33,
+      "section": "Daily Life & Habits",
+      "question": "Your daily routine is:",
+      "options": ["Very organized", "Mostly organized", "Flexible", "Unstructured"]
+    },
+    {
+      "id": 34,
+      "section": "Daily Life & Habits",
+      "question": "Social life preference:",
+      "options": ["Very social", "Selective", "Mostly private", "Introverted"]
+    },
+    {
+      "id": 35,
+      "section": "Daily Life & Habits",
+      "question": "How do you spend free time?",
+      "options": ["With people", "Hobbies", "Resting", "Online"]
+    },
+    {
+      "id": 36,
+      "section": "Daily Life & Habits",
+      "question": "Decision-making style:",
+      "options": ["Logical", "Emotional", "Balanced", "Indecisive"]
+    },
+    {
+      "id": 37,
+      "section": "Daily Life & Habits",
+      "question": "How adaptable are you?",
+      "options": ["Very adaptable", "Moderately adaptable", "Slightly adaptable", "Rigid"]
+    },
+    {
+      "id": 38,
+      "section": "Daily Life & Habits",
+      "question": "You prefer your partner to be:",
+      "options": ["Similar to you", "Slightly different", "Very different", "Doesn’t matter"]
+    },
+    {
+      "id": 39,
+      "section": "Daily Life & Habits",
+      "question": "What matters most in a partner?",
+      "options": ["Character", "Emotional support", "Stability", "Attraction"]
+    },
+    {
+      "id": 40,
+      "section": "Daily Life & Habits",
+      "question": "Overall, you seek a relationship that is:",
+      "options": ["Deep and meaningful", "Balanced and peaceful", "Fun and exciting", "Independent and flexible"]
+    }
+  ]
+}
