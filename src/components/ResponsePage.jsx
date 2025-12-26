@@ -31,17 +31,33 @@ const ResponsePage = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            // If data is passed via navigation state, use it
+            // Priority 1: Check for fresh data from navigation (Quiz Submission)
             if (location.state?.aiResponse) {
-                setResponseData(location.state.aiResponse);
+                console.log("Using fresh data from quiz submission");
+                const freshData = location.state.aiResponse;
+                setResponseData(freshData);
+                localStorage.setItem('geminiResponse', JSON.stringify(freshData));
+                setLoading(false);
+                // Clear the location state to prevent re-triggering on simple reload if we want strict behavior,
+                // but usually fine to leave it. The key is overwriting the cache.
+                return;
+            }
+
+            // Priority 2: Check local storage
+            const cachedData = localStorage.getItem('geminiResponse');
+            if (cachedData) {
+                console.log("Using cached data from local storage");
+                setResponseData(JSON.parse(cachedData));
                 setLoading(false);
                 return;
             }
 
-            // Otherwise fetch from the API
+            // Priority 3: Fetch from API (Fallback or first load)
             try {
+                console.log("Fetching fresh data from API");
                 const response = await axiosInstance.get('/user/response');
                 setResponseData(response.data);
+                localStorage.setItem('geminiResponse', JSON.stringify(response.data));
             } catch (err) {
                 console.error("Failed to fetch response:", err);
                 setError(err);

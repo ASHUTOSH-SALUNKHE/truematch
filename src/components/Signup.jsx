@@ -11,6 +11,7 @@ const Signup = () => {
         password: ''
     });
     const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
     const { register } = useAuth();
     const navigate = useNavigate();
 
@@ -21,11 +22,14 @@ const Signup = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError('');
+        setIsLoading(true);
         try {
             await register(formData);
             navigate('/login');
         } catch (err) {
             setError('Registration failed. Please try again.');
+        } finally {
+            setIsLoading(false);
         }
     };
 
@@ -65,6 +69,7 @@ const Signup = () => {
                                 placeholder="John Doe"
                                 value={formData.name}
                                 onChange={handleChange}
+                                disabled={isLoading}
                             />
                         </div>
                     </div>
@@ -81,6 +86,7 @@ const Signup = () => {
                                 placeholder="you@example.com"
                                 value={formData.email}
                                 onChange={handleChange}
+                                disabled={isLoading}
                             />
                         </div>
                     </div>
@@ -97,16 +103,27 @@ const Signup = () => {
                                 placeholder="Make it strong"
                                 value={formData.password}
                                 onChange={handleChange}
+                                disabled={isLoading}
                             />
                         </div>
                     </div>
 
                     <button
                         type="submit"
-                        className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center gap-2 group mt-4"
+                        disabled={isLoading}
+                        className="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center gap-2 group mt-4 disabled:opacity-70 disabled:cursor-not-allowed"
                     >
-                        Create Account
-                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        {isLoading ? (
+                            <>
+                                <span className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></span>
+                                Creating Account...
+                            </>
+                        ) : (
+                            <>
+                                Create Account
+                                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            </>
+                        )}
                     </button>
                 </form>
 

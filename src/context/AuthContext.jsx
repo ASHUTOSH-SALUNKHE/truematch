@@ -76,18 +76,19 @@ export const AuthProvider = ({ children }) => {
     };
 
     const logout = async () => {
-      try {
-        await axiosInstance.post(
-          "/auth/logout",
-          {},
-          { withCredentials: true } 
-        );
-      } catch (error) {
-        console.error("Logout error:", error);
-      } finally {
-        localStorage.removeItem("accessToken");
-        setUser(null);
-      }
+        try {
+            await axiosInstance.post(
+                "/auth/logout",
+                {},
+                { withCredentials: true }
+            );
+        } catch (error) {
+            console.error("Logout error:", error);
+        } finally {
+            localStorage.removeItem("accessToken");
+            localStorage.removeItem("geminiResponse");
+            setUser(null);
+        }
     };
 
 
