@@ -26,10 +26,12 @@
 **TrueMatch** is a revolutionary dating platform that goes beyond surface-level connections. Powered by advanced AI and cognitive science, we analyze 50+ psychological traits to find your perfect match. Experience connection on a neural level with our psychometric-validated approach.
 
 > "Beyond Surface Level. Traditional apps rely on shared hobbies. We rely on shared cognitive structures."
->
-> **Frontend**: https://github.com/ASHUTOSH-SALUNKHE/truematch
-> **Backend**: https://hub.docker.com/repository/docker/ashutoshsalunkhe/truematch-application/general
-> **Database** : https://neon.com/
+
+**Links**
+- **Frontend**: https://github.com/ASHUTOSH-SALUNKHE/truematch
+- **Backend**: https://hub.docker.com/repository/docker/ashutoshsalunkhe/truematch-application/general
+- **Database**: https://neon.com/
+
 
 ## ✨ Features
 
